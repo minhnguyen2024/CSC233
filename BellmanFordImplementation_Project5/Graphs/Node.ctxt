@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\r\n\ An\ adjacency\ list\ representation\ of\ a\ node.\r\n
+comment1.params=data
+comment1.target=Node(java.lang.Object)
+comment2.params=toID\ weight
+comment2.target=void\ addEdgeTo(int,\ double)
+comment2.text=\r\n\ Add\ an\ edge\ to\ another\ node,\ with\ the\ specified\ weight.\r\n
+comment3.params=toID
+comment3.target=void\ addEdgeTo(int)
+comment3.text=\r\n\ Add\ an\ edge\ to\ another\ node,\ with\ a\ weight\ of\ 1,\ which\ \r\n\ can\ also\ be\ considered\ "unweighted".\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getAdjacentList()
+comment4.text=\r\n\ @return\ The\ entire\ list\ of\ adjacent\ node\ IDs.\r\n
+comment5.params=edgeID
+comment5.target=double\ getWeight(int)
+comment5.text=\r\n\ @return\ The\ weight\ of\ the\ edge\ at\ adjacentList.get(edgeID).\r\n
+comment6.params=
+comment6.target=java.lang.Object\ getData()
+comment6.text=\r\n\ @return\ The\ data\ of\ this\ node.\ Note\ also\ the\ getDataAsString()\ method.\r\n
+comment7.params=
+comment7.target=java.lang.String\ getDataAsString()
+comment7.text=\r\n\ Just\ a\ little\ convenience\ method\ demonstrating\ how\ to\ get\ a\ String\ representation\r\n\ of\ the\ data,\ no\ matter\ what\ type\ E\ is.\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ @return\ A\ string\ representation\ of\ the\ node\:\ the\ data,\ and\ adjacent\ nodes.\r\n
+numComments=9
